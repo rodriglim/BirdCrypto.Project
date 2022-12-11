@@ -1,2 +1,6 @@
 # BirdCrypto.Project
-Projeto - "BirdCrypto.", que visa acompanhar a cotação das principais criptomoedas do mercado(Bitcoin, Ethereum, Litecoin e Dogecoin).
+
+<br>Acompanha as 4 principais criptomoedas mais populares no mercado atual, são elas: Bitcoin, Ethereum, Litecoin e Dogecoin<br>
+Foi usado:
+ <br>- API  CoinMarket<br>
+-  Java
