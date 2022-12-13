@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MarketActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="68dp"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:text="Crypto."
+        android:textColor="@color/orange"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bdorange"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <ImageView
+        android:id="@+id/bdorange"
+        android:layout_width="46dp"
+        android:layout_height="37dp"
+        android:src="@drawable/birdorange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="181dp"
+        android:layout_height="37dp"
+        android:gravity="center"
+        android:text="Crypto Market"
+        android:textColor="@color/orange"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <ImageView
+        android:id="@+id/btcView"
+        android:layout_width="327dp"
+        android:layout_height="84dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/bgbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <ImageView
+        android:id="@+id/ethView"
+        android:layout_width="327dp"
+        android:layout_height="84dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/bgbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btcView"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <ImageView
+        android:id="@+id/ltcView"
+        android:layout_width="327dp"
+        android:layout_height="84dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/bgbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ethView"
+        app:layout_constraintVertical_bias="0.379" />
+
+
+    <ImageView
+        android:id="@+id/dgcView"
+        android:layout_width="327dp"
+        android:layout_height="84dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/bgbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ltcView"
+        app:layout_constraintVertical_bias="0.584" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:foregroundGravity="center|left"
+        android:src="@drawable/iconbitcoin"
+        app:layout_constraintBottom_toBottomOf="@+id/btcView"
+        app:layout_constraintEnd_toEndOf="@+id/btcView"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="@+id/btcView"
+        app:layout_constraintTop_toTopOf="@+id/btcView"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:foregroundGravity="center|left"
+        android:src="@drawable/iconethereum"
+        app:layout_constraintBottom_toBottomOf="@+id/ethView"
+        app:layout_constraintEnd_toEndOf="@+id/ethView"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="@+id/ethView"
+        app:layout_constraintTop_toTopOf="@+id/ethView"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:foregroundGravity="center|left"
+        android:src="@drawable/iconlitecoin"
+        app:layout_constraintBottom_toBottomOf="@+id/ltcView"
+        app:layout_constraintEnd_toEndOf="@+id/ltcView"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="@+id/ltcView"
+        app:layout_constraintTop_toTopOf="@+id/ltcView"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:foregroundGravity="center|left"
+        android:src="@drawable/icondogecoin"
+        app:layout_constraintBottom_toBottomOf="@+id/dgcView"
+        app:layout_constraintEnd_toEndOf="@+id/dgcView"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="@+id/dgcView"
+        app:layout_constraintTop_toTopOf="@+id/dgcView"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <TextView
+        android:layout_width="71dp"
+        android:layout_height="20dp"
+        android:text="BTC/USD"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btcView"
+        app:layout_constraintEnd_toEndOf="@+id/btcView"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/btcView"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <TextView
+        android:layout_width="71dp"
+        android:layout_height="20dp"
+        android:text="ETH/USD"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ethView"
+        app:layout_constraintEnd_toEndOf="@+id/ethView"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/ethView"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <TextView
+        android:layout_width="71dp"
+        android:layout_height="20dp"
+        android:text="LTC/USD"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ltcView"
+        app:layout_constraintEnd_toEndOf="@+id/ltcView"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/ltcView"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <TextView
+        android:layout_width="71dp"
+        android:layout_height="20dp"
+        android:text="DOGE/USD"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/dgcView"
+        app:layout_constraintEnd_toEndOf="@+id/dgcView"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/dgcView"
+        app:layout_constraintVertical_bias="0.281"/>
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="18dp"
+        android:text="Bitcoin"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btcView"
+        app:layout_constraintEnd_toEndOf="@+id/btcView"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/btcView"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="18dp"
+        android:text="Ethereum"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ethView"
+        app:layout_constraintEnd_toEndOf="@+id/ethView"
+        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/ethView"
+        app:layout_constraintVertical_bias="0.772" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="18dp"
+        android:text="Litecoin"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ltcView"
+        app:layout_constraintEnd_toEndOf="@+id/ltcView"
+        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/ltcView"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="18dp"
+        android:text="Dogecoin"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dgcView"
+        app:layout_constraintEnd_toEndOf="@+id/dgcView"
+        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/dgcView"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <TextView
+        android:id="@+id/valueBtc"
+        android:layout_width="94dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="32dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btcView"
+        app:layout_constraintEnd_toEndOf="@+id/btcView"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/btcView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/valueEth"
+        android:layout_width="94dp"
+        android:layout_height="20dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ethView"
+        app:layout_constraintEnd_toEndOf="@+id/ethView"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/ethView"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <TextView
+        android:id="@+id/valueLtc"
+        android:layout_width="94dp"
+        android:layout_height="20dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ltcView"
+        app:layout_constraintEnd_toEndOf="@+id/ltcView"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/ltcView"
+        app:layout_constraintVertical_bias="0.453" />
+
+    <TextView
+        android:id="@+id/valueDoge"
+        android:layout_width="94dp"
+        android:layout_height="20dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/dgcView"
+        app:layout_constraintEnd_toEndOf="@+id/dgcView"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/dgcView"
+        app:layout_constraintVertical_bias="0.453" />
+
+    <ImageView
+        android:id="@+id/btnhomet"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:src="@drawable/birdhouse"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dgcView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
